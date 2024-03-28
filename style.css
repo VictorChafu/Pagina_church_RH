@@ -36,3 +36,53 @@ header{
     width: 100%;
     height: 100vh;
 }
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.vision{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50vh;
+}
+.vision h3{
+    font-size: 30px;
+    padding: 10px;
+}
+.vision p{
+    padding: 0px 60px;
+    text-align: center;
+}
+.vision img{
+    width: 300px;
+    padding-top: 0;
+}
+
+.pastores{
+    padding-top: 100px;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.pastores img{
+    width: 700px;
+    padding-right: 10vh;
+    mask-image: linear-gradient(
+        white 80deg,
+        transparent 
+    );
+    
+}
+.pastores h2{
+    font-size: 40px;
+}
+.pastores p{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-right: 10vh;
+}
